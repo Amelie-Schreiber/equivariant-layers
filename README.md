@@ -58,4 +58,4 @@ $$ = \bigoplus_{n \geq 0} \bigoplus_{\lambda \vdash n} S^{\lambda}(V) \otimes S^
 
 $$ = \bigoplus_{\lambda} S^{\lambda}(V) \otimes S^{\lambda}(W)^* $$
 
-This gives us a representation theoretic understanding of the algebraic geometry of the space $\mathbb{C}[\mathbb{Hom}(V, W)]$.  
+This gives us a representation theoretic understanding of the algebraic geometry of the space $\mathbb{C}[\mathbb{Hom}(V, W)]$. 
