@@ -23,7 +23,7 @@ $$ =\text{FF}(X)P $$
              
 where $\text{ReLU}(XP) = \text{ReLU}(X)P$ was used. This analysis shows that the function class $T_{h,m,r}(\cdot)$ is restricted to permutation equivariant functions.
 
-## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbf{Hom}(V, W)$
+## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbb{C}[\mathbf{Hom}(V, W)]$
 
 There is a $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant filtration of the coordinate ring of the space of linear maps $\mathbf{Hom}(V, W)$ by Schur functors. Using this filtration, we might be able to better understand equivariance in the feed-forward layers of neural networks. 
 
