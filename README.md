@@ -30,11 +30,16 @@ where $\text{ReLU}(XP) = \text{ReLU}(X)P$ was used. This analysis shows that the
 ## Alternate Definition of Attention (and Proof of Equivariance)
 
 $$\text{Attn}(PX) = \text{softmax}\left(\frac{(PX)W_Q((PX)W_K)^T}{\sqrt{d}}\right)(PX)W_V $$
-                $$= \text{softmax}\left(\frac{(PX)W_Q(W_K^T X^T P^T)}{\sqrt{d}}\right)(PX)W_V $$
-                $$= \text{softmax}\left(\frac{P(XW_QW_K^T)X^TP^T}{\sqrt{d}}\right)(PX)W_V $$
-                $$= P\text{softmax}\left(\frac{XW_QW_K^TX^T}{\sqrt{d}}\right)P^TPXW_V $$
-                $$= P\left(\text{softmax}\left(\frac{XW_Q(XW_K)^T}{\sqrt{d}}\right)XW_V\right) $$
-                $$= P\text{Attn}(X),$$
+
+$$= \text{softmax}\left(\frac{(PX)W_Q(W_K^T X^T P^T)}{\sqrt{d}}\right)(PX)W_V $$
+                
+$$= \text{softmax}\left(\frac{P(XW_QW_K^T)X^TP^T}{\sqrt{d}}\right)(PX)W_V $$
+                
+$$= P\text{softmax}\left(\frac{XW_QW_K^TX^T}{\sqrt{d}}\right)P^TPXW_V $$
+                
+$$= P\left(\text{softmax}\left(\frac{XW_Q(XW_K)^T}{\sqrt{d}}\right)XW_V\right) $$
+                
+$$= P\text{Attn}(X),$$
 
 where we used $P^TP = I$. 
 
