@@ -43,19 +43,11 @@ $$= P\text{Attn}(X),$$
 
 where we used $P^TP = I$. Proof provided by ChatGPT :)
 
-## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbb{C}[\mathbf{Hom}(V, W)]$
+## Questions About Other Groups
 
-There is a $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant filtration of the coordinate ring of the space of linear maps $\mathbf{Hom}(V, W)$ by Schur functors. Using this filtration, we might be able to better understand equivariance in the feed-forward layers of neural networks. 
-
-$$ \mathbb{C}[\mathbb{Hom}(V, W)] = \mathbb{C}[V^* \otimes W] $$
-$$ = \mathbf{Sym}((V^* \otimes W)^*) $$
-
-$$ = \mathbf{Sym}(V \otimes W^*) $$
-
-$$ = \bigoplus_{n \geq 0} \mathbf{Sym}^n(V \otimes W^*) $$
-
-$$ = \bigoplus_{n \geq 0} \bigoplus_{\lambda \vdash n} S^{\lambda}(V) \otimes S^{\lambda}(W^*) $$
-
-$$ = \bigoplus_{\lambda} S^{\lambda}(V) \otimes S^{\lambda}(W)^* $$
-
-This gives us a representation theoretic understanding of the algebraic geometry of the space $\mathbb{C}[\mathbb{Hom}(V, W)]$. 
+1. What other group equivariance can we build into neural networks?
+2. Can this be made compatible with transformers?
+3. When do we need equivariance? What problems benefit from it?
+4. How can Group Equivariant Neural Networks be used for NLP? 
+5. Are there symmetries in language that we are missing?
+6. Is this related to graph grammars and/or the topology of language? 
