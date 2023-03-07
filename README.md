@@ -34,6 +34,6 @@ $$ = \mathbf{Sym}(V \otimes W^*) $$
 
 $$ = \bigoplus_{n \geq 0} \mathbf{Sym}^n(V \otimes W^*) $$
 
-$$ = \bioplus_{n \geq 0} \bigoplus_{\lambda \vdash n} S^{\lambda}(V) \otimes S^{\lambda}(W^*) $$
+$$ = \bigoplus_{n \geq 0} \bigoplus_{\lambda \vdash n} S^{\lambda}(V) \otimes S^{\lambda}(W^*) $$
 
 $$ = \bigoplus_{\lambda} S^{\lambda}(V) \otimes S^{\lambda}(W)^* $$
