@@ -3,7 +3,9 @@ $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant decomposition for linear maps
 
 ## Permutation Equivariance in Transformers
 
-This proof is the proof of Claim 1, from Section A of [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/abs/1912.10077): Suppose $XP$ was given as input, where $P$ is a permutation matrix. First note that 
+This proof is the proof of Claim 1, from Section A of [Are Transformers universal approximators of sequence-to-sequence functions?](https://arxiv.org/abs/1912.10077): 
+
+Suppose $XP$ was given as input, where $P$ is a permutation matrix. First note that 
 
 $$(W^i_KXP)^T(W^i_QXP) = P^T(W^i_KX)^T(W^i_QX)P.$$ 
 
