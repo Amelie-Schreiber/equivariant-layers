@@ -41,7 +41,7 @@ $$= P\left(\text{softmax}\left(\frac{XW_Q(XW_K)^T}{\sqrt{d}}\right)XW_V\right) $
                 
 $$= P\text{Attn}(X),$$
 
-where we used $P^TP = I$. 
+where we used $P^TP = I$. Proof provided by ChatGPT :)
 
 ## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbb{C}[\mathbf{Hom}(V, W)]$
 
