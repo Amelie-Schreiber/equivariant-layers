@@ -27,6 +27,17 @@ $$ =\text{FF}(X)P $$
              
 where $\text{ReLU}(XP) = \text{ReLU}(X)P$ was used. This analysis shows that the function class $T_{h,m,r}(\cdot)$ is restricted to permutation equivariant functions.
 
+## Alternate Definition of Attention (and Proof of Equivariance)
+
+$$\text{Attn}(PX) = \text{softmax}\left(\frac{(PX)W_Q((PX)W_K)^T}{\sqrt{d}}\right)(PX)W_V $$
+                $$= \text{softmax}\left(\frac{(PX)W_Q(W_K^T X^T P^T)}{\sqrt{d}}\right)(PX)W_V $$
+                $$= \text{softmax}\left(\frac{P(XW_QW_K^T)X^TP^T}{\sqrt{d}}\right)(PX)W_V $$
+                $$= P\text{softmax}\left(\frac{XW_QW_K^TX^T}{\sqrt{d}}\right)P^TPXW_V $$
+                $$= P\left(\text{softmax}\left(\frac{XW_Q(XW_K)^T}{\sqrt{d}}\right)XW_V\right) $$
+                $$= P\text{Attn}(X),$$
+
+where we used $P^TP = I$. 
+
 ## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbb{C}[\mathbf{Hom}(V, W)]$
 
 There is a $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant filtration of the coordinate ring of the space of linear maps $\mathbf{Hom}(V, W)$ by Schur functors. Using this filtration, we might be able to better understand equivariance in the feed-forward layers of neural networks. 
