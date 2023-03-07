@@ -25,4 +25,11 @@ where $\text{ReLU}(XP) = \text{ReLU}(X)P$ was used. This analysis shows that the
 
 ## $\mathbf{GL}(m) \times \mathbf{GL}(n)$-Equivariant Filtration of $\mathbf{Hom}(V, W)$
 
-There is a $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant filtration of the space of linear maps $\mathbf{Hom}(V, W)$ by Schur functors. Using this filtration, we might be able to better understand equivariance in the feed-forward layers of neural networks. 
+There is a $\mathbf{GL}(m) \times \mathbf{GL}(n)$-equivariant filtration of the coordinate ring of the space of linear maps $\mathbf{Hom}(V, W)$ by Schur functors. Using this filtration, we might be able to better understand equivariance in the feed-forward layers of neural networks. 
+
+$$\mathbb{C}[\mathbb{Hom}(V, W)] = \mathbb{C}[V^* \otimes W]$$
+$$ = \mathbf{Sym}((V^* \otimes W)^*) $$
+$$ = \mathbf{Sym}(V \otimes W^*) $$
+$$ = \bigoplus_{n \geq 0} \mathbf{Sym}^n(V \otimes W^*) $$
+$$ = \bioplus_{n \geq 0} \bigoplus_{\lambda \vdash n} S^{\lambda}(V) \otimes S^{\lambda}(W^*) $$
+$$ = \bigoplus_{\lambda} S^{\lambda}(V) \otimes S^{\lambda}(W)^* $$
