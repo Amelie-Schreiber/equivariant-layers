@@ -15,7 +15,9 @@ $$ \sigma[P^T(W^i_KX)^T(W^i_QX)P] = P^T\sigma[(W^i_KX)^T(W^i_QX)]P.$$
 
 Then, 
 
-$$\text{Attn}(XP) = XP + \sum_{i=1}^h W^i_O(W^i_V XP) \cdot P^T\sigma[(W^i_KX)^T(W^i_QX)]P = \text{Attn}(X)P,$$
+$$\text{Attn}(XP) = XP + \sum_{i=1}^h W^i_O(W^i_V XP) \cdot P^T\sigma[(W^i_KX)^T(W^i_QX)]P $$
+
+$$ = \text{Attn}(X)P,$$
 
 where we used $P^TP = I$. Permutation equivariance of the token-wise feed-forward layer can be shown similarly: 
 
