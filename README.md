@@ -27,6 +27,9 @@ $$ =\text{FF}(X)P $$
              
 where $\text{ReLU}(XP) = \text{ReLU}(X)P$ was used. This analysis shows that the function class $T_{h,m,r}(\cdot)$ is restricted to permutation equivariant functions.
 
+Now we would like to study [The general theory of permutation equivarant neural networks and higher order graph variational encoders
+](https://arxiv.org/abs/2004.03990) in detail. 
+
 ## Alternate Definition of Attention (and Proof of Equivariance)
 
 $$\text{Attn}(PX) = \text{softmax}\left(\frac{(PX)W_Q((PX)W_K)^T}{\sqrt{d}}\right)(PX)W_V $$
