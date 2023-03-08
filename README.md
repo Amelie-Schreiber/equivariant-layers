@@ -45,12 +45,14 @@ where we used $P^TP = I$. Proof provided by ChatGPT :)
 
 ## Questions About Other Groups
 
-1. What other group equivariance can we build into neural networks?
-2. Can this be made compatible with transformers?
-3. When do we need equivariance? What problems benefit from it?
+1. What other group equivariance can we build into neural networks? See for example [A General Theory of Equivariant CNNs on Homogeneous Spaces
+](https://arxiv.org/abs/1811.02017).
+2. How can this be made compatible with transformers? See for example [Group Equivariant Stand-Alone Self-Attention For Vision
+](https://arxiv.org/abs/2010.00977).
+3. When do we need equivariance? What problems benefit from it? See for example [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges
+](https://arxiv.org/abs/2104.13478)
 4. How can Group Equivariant Neural Networks be used for NLP? 
-5. Are there symmetries in language that we are missing?
-6. Is this related to graph grammars and/or the topology of language? 
-7. How can we use invariant theory?
+5. Are there symmetries in language that we are missing? Invariant theory applications?
+6. Is this related to graph grammars and/or the topology of language? See for example [Graph Grammars - http:/ /www.its.caltech.edu](http://www.its.caltech.edu/~matilde/GraphGrammarsLing.pdf)
 
 
