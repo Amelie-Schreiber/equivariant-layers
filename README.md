@@ -54,5 +54,6 @@ where we used $P^TP = I$. Proof provided by ChatGPT :)
 4. How can Group Equivariant Neural Networks be used for NLP? 
 5. Are there symmetries in language that we are missing? Invariant theory applications?
 6. Is this related to graph grammars and/or the topology of language? See for example [Graph Grammars - http:/ /www.its.caltech.edu](http://www.its.caltech.edu/~matilde/GraphGrammarsLing.pdf)
+7. Can we apply [The Quantum Graph Recurrent Neural Network](https://pennylane.ai/qml/demos/tutorial_qgrnn.html) to understand weighted attention graphs, and is this connected to Question 6?
 
 
