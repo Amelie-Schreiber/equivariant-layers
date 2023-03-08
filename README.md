@@ -51,3 +51,6 @@ where we used $P^TP = I$. Proof provided by ChatGPT :)
 4. How can Group Equivariant Neural Networks be used for NLP? 
 5. Are there symmetries in language that we are missing?
 6. Is this related to graph grammars and/or the topology of language? 
+7. How can we use invariant theory?
+
+
